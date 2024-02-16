@@ -24,7 +24,9 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
         with:
-          ref: src
+          sparse-checkout: |
+            .github
+            src
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
