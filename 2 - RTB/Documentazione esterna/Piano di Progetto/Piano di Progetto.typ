@@ -117,6 +117,7 @@
 = Introduzione
 
 == Scopo del documento
+vabbe
 Il documento _Piano di progetto_ ha il compito di governare la pianificazione dell'avanzamento del progetto, determinando task e obiettivi da raggiungere e presentando un'analisi critica del lavoro fino a quel momento svolto. L'intento è rendicontare e valutare criticamente l'operato compiuto per  migliorarlo, ove necessario, e gestire in modo efficace ed efficiente le risorse.
 
 Il documento si articola in 5 sezioni principali:
