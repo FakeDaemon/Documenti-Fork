@@ -36,7 +36,7 @@ jobs:
           source_file: |
             ${{ inputs.file_path }}/${{ inputs.file_name }}.typ
       - name: Publish artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ inputs.file_name }}.pdf
           path: ${{ github.workspace }}/${{ inputs.file_path }}/${{ inputs.file_name }}.pdf
