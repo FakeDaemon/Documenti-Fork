@@ -18,6 +18,7 @@ jobs:
       - name: Set up Git repository
         uses: actions/checkout@v4
       - name: Set up Python
+        #aggiornare a v5
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
