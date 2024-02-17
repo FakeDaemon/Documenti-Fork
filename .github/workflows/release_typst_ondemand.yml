@@ -85,7 +85,7 @@ jobs:
           git checkout $TARGET_BRANCH
           git rm --ignore-unmatch "${{ steps.publish_path.outputs.PUBLISH_PATH }}/${{ inputs.file_name }}*.pdf"
       - name: Grab document
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v3
         with:
           name: "${{ inputs.file_name }}.pdf"
           path: "${{ github.workspace }}/${{ steps.publish_path.outputs.PUBLISH_PATH }}"
