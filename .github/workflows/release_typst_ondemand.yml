@@ -44,7 +44,7 @@ jobs:
   deploy:
     if: inputs.do_deploy
     needs: retrieve
-    uses: Error-418-SWE/Documenti/.github/workflows/deploy_website.yml@src
+    uses: FakeDaemon/Documenti-Fork/.github/workflows/deploy_website.yml@src
     with:
       file_name: ${{ inputs.file_name }}
       file_path: ${{ inputs.file_path }}
@@ -52,7 +52,7 @@ jobs:
 
   compile:
     if: inputs.do_publish
-    uses: Error-418-SWE/Documenti/.github/workflows/compile_document.yml@src
+    uses: FakeDaemon/Documenti-Fork/.github/workflows/compile_document.yml@src
     with:
       file_name: ${{ inputs.file_name }}
       file_path: ${{ inputs.file_path }}

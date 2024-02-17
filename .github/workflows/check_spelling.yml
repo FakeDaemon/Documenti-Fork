@@ -4,7 +4,7 @@ on:
 
 jobs:
   fetch:
-    uses: Error-418-SWE/Documenti/.github/workflows/fetch_info.yml@src
+    uses: FakeDaemon/Documenti-Fork/.github/workflows/fetch_info.yml@src
 
   check:
     name: Check spelling
